@@ -155,7 +155,7 @@ section {
 .project-card {
     background-color: #f0f0f0;
     box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
-    min-height: 14em;
+    height: fit-content;
     width: 23em;
     overflow: hidden;
     border-radius: 10px;
@@ -165,4 +165,66 @@ section {
 
 .project-card:hover {
     transform: scale(1.1);
+}
+
+.project-card:hover .project-image {
+    opacity: 0.9;
+}
+
+.project-image img {
+    width: 100%;
+}
+
+.project-info {
+    padding: 1em;
+}
+
+.project-category {
+    font-size: 0.8em;
+    color: #000;
+}
+
+.porject-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.more-details {
+    text-decoration: none;
+    color: #3ddc84;
+}
+
+.more-details:hover {
+    color: #078641;
+}
+
+.footer {
+    color: #fff;
+    background-color: #000016;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.social-icons-footer a {
+    color: #fff;
+    padding-right: 20px;
+    font-size: 1.7em;
+    transition: 0.7s ease;
+}
+
+.social-icons-footer a:hover {
+    color: #2c718f;   
+}
+
+.footer-title {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #078641;
 }
