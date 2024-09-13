@@ -50,7 +50,8 @@ section {
     display: flex;
     align-items: center;
     background-size: cover;
-    background: #d2ecfd no-repeat center;
+    background: #f0f0f0 right no-repeat;
+    background-image: url(images/background.png);
 }
 
 .main h2 {
